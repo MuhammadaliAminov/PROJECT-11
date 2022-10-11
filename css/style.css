@@ -5,6 +5,10 @@
 
 }
 
+body {
+    font-family: cursive;
+}
+
 a {
     text-decoration: none;
 }
@@ -56,6 +60,23 @@ ul {
 
 .header__title {
     font-size: 100px;
-    color: dodgerblue;
+    color: #fff;
     text-shadow: 10px 10px 5px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.about {
+    min-height: 500px;
+    background: green;
+    border-top: 10px solid #000;
+}
+
+.about__title {
+    font-size: 100px;
+    color: white;
+    line-height: 500px;
+    text-align: center;
 }
